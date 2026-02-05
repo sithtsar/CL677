@@ -90,10 +90,10 @@ matplotlib 3.7+
 
 ```bash
 # Navigate to Assignment1 directory
-cd Assignment1
+cd assignments/Assignment1
 
 # Activate virtual environment
-source ../.venv/bin/activate
+source ../../.venv/bin/activate
 
 # Install dependencies (if not already installed)
 uv pip install marimo numpy matplotlib

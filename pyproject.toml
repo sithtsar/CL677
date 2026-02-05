@@ -1,12 +1,11 @@
 [project]
 name = "cl677"
 version = "0.1.0"
-description = "Add your description here"
+description = "Modelling Stochastic and Turbulent Transport - CL677"
 readme = "README.md"
 requires-python = ">=3.13"
 dependencies = [
     "marimo>=0.19.4",
-    "matplotlib>=3.10.8",
-    "numpy>=2.4.1",
-    "pandas>=2.3.3",
+    "numpy>=1.24.0",
+    "matplotlib>=3.7.0",
 ]

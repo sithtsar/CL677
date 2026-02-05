@@ -28,13 +28,14 @@ This repository contains assignments and projects for CL677, focusing on stochas
 
 ```
 CL677/
-├── Assignment1/          # Random Walks Simulation
-│   ├── notebook.py       # Interactive Marimo notebook with sliders
-│   ├── notebook_clean.py # Clean version for submission (fixed parameters)
-│   └── README.md         # Assignment-specific documentation
-├── .venv/                # Python virtual environment
-├── .gitignore           # Git ignore rules
-└── README.md            # This file
+├── .venv/                        # Python virtual environment
+├── assignments/                  # Course assignments
+│   ├── Assignment1/             # Random Walks Simulation
+│   │   ├── notebook.py           # Interactive Marimo notebook
+│   │   └── README.md             # Assignment-specific documentation
+│   └── Assignment2/              # (Coming soon)
+├── .gitignore                    # Git ignore rules
+└── README.md                     # This file
 ```
 
 ---
@@ -103,8 +104,8 @@ marimo --version
 
 #### Interactive Mode (with UI)
 ```bash
-cd Assignment1
-source ../.venv/bin/activate
+cd assignments/Assignment1
+source ../../.venv/bin/activate
 marimo edit notebook.py
 ```
 
@@ -148,7 +149,7 @@ marimo export html notebook_clean.py > output.html
 ### Assignment 1: Random Walks Simulation
 
 **Status:** ✅ Completed
-**Directory:** `Assignment1/`
+**Directory:** `assignments/Assignment1/`
 **Topics:** Brownian motion, Euler-Maruyama method, MSD analysis
 
 **Key Questions:**
@@ -158,14 +159,14 @@ marimo export html notebook_clean.py > output.html
 
 **Quick Run:**
 ```bash
-cd Assignment1
-source ../.venv/bin/activate
+cd assignments/Assignment1
+source ../../.venv/bin/activate
 marimo edit notebook_clean.py  # For submission version
 # OR
 marimo edit notebook.py         # For interactive exploration
 ```
 
-See [Assignment1/README.md](Assignment1/README.md) for detailed documentation.
+See [assignments/Assignment1/README.md](assignments/Assignment1/README.md) for detailed documentation.
 
 ---
 
@@ -344,7 +345,7 @@ MIT License - See LICENSE file for details
 ## 🔗 Links
 
 - **Course Repository:** https://github.com/sithtsar/CL677
-- **Assignment 1:** [Assignment1/README.md](Assignment1/README.md)
+- **Assignment 1:** [assignments/Assignment1/README.md](assignments/Assignment1/README.md)
 - **Marimo:** https://marimo.io
 
 ---
