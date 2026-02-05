@@ -11,3 +11,7 @@ wheels/
 
 # Marimo
 __marimo__
+
+# Apple Files 
+.DS_Store
+
