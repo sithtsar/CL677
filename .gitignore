@@ -15,3 +15,8 @@ __marimo__
 # Apple Files 
 .DS_Store
 
+
+# Exports
+project/notebook_wasm/
+project/notebook.html
+project/public/
